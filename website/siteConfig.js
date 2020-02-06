@@ -41,7 +41,7 @@ const siteConfig = {
         { blog: true, label: 'Blog' },
         { href: "https://github.com/imsrbh", label: "GitHub" },
         { page: 'help', label: 'Help' },
-        { search: true },
+
         // Determines language drop down position among links
 
     ],

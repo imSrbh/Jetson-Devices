@@ -4,16 +4,14 @@ title: Jetson Devices Comparison Sheet
 sidebar_label: Comparison Sheet
 ---
 
-source [documentation](https://elinux.org/Jetson).
+>The Jetson line of embedded Linux AI and computer vision compute modules and devkits from NVIDIA:
 
-![](img/Comp.png)
+- __Jetson TK1: single-board 5" x 5" computer featuring Tegra K1 SOC (quad-core 32-bit Cortex-A15 + 192-core Kepler GPU), 2GB DDR3, and 8GB eMMC.__
+- Jetson TX1: carrier-board + compute module featuring Tegra X1 SOC (quad-core 64-bit Cortex-A57 + 256-core Maxwell GPU), 4GB 64-bit LPDDR4, and 16GB eMMC.
+- __Jetson TX2: carrier-board + compute module featuring Tegra X2 SOC (quad-core 64-bit Cortex-A57 + dual-core NVIDIA Denver2 CPU + 256-core Pascal GPU), 8GB 128-bit LPPDR4, 32GB eMMC.__
+- Jetson Nano: carrier-board + compute module featuring Tegra X1 SOC (quad-core 64-bit Cortex-A57 + 128-core Maxwell GPU), 4GB 64-bit LPDDR4, 4K video encoder/decoder.
+- __Jetson AGX Xavier: carrier-board + compute module featuring Xavier SOC (octal-core 64-bit ARMv8.2 + 512-core Volta GPU with Tensor Cores + dual DLAs), 16GB 256-bit LPDDR4x, 32GB eMMC.__
 
-## Lorem
+![](https://github.com/imSrbh/Jetson-Devices/blob/master/website/static/img/Comp.png?raw=true)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum massa eget nulla aliquet sagittis. Proin odio tortor, vulputate ut odio in, ultrices ultricies augue. Cras ornare ultrices lorem malesuada iaculis. Etiam sit amet libero tempor, pulvinar mauris sed, sollicitudin sapien.
-
-## Mauris In Code
-
-```
-Mauris vestibulum ullamcorper nibh, ut semper purus pulvinar ut. Donec volutpat orci sit amet mauris malesuada, non pulvinar augue aliquam. Vestibulum ultricies at urna ut suscipit. Morbi iaculis, erat at imperdiet semper, ipsum nulla sodales erat, eget tincidunt justo dui quis justo. Pellentesque dictum bibendum diam at aliquet. Sed pulvinar, dolor quis finibus ornare, eros odio facilisis erat, eu rhoncus nunc dui sed ex. Nunc gravida dui massa, sed ornare arcu tincidunt sit amet. Maecenas efficitur sapien neque, a laoreet libero feugiat ut.
-```
+>source [comparison sheet](https://elinux.org/Jetson).

@@ -94,73 +94,73 @@ class Index extends React.Component {
 
 
 
-    const TryOut = () => (
-      <Block id="try">
-        {[
-          // {
-          //   content:
-          //     'To make your landing page more attractive, use illustrations! Check out ' +
-          //     '[**unDraw**](https://undraw.co/) which provides you with customizable illustrations which are free to use. ' +
-          //     'The illustrations you see on this page are from unDraw.',
-          //   image: `${baseUrl}img/undraw_code_review.svg`,
-          //   imageAlign: 'left',
-          //   title: 'Wonderful SVG Illustrations',
-          // },
-        ]}
-      </Block>
-    );
+    // const TryOut = () => (
+    //   <Block id="try">
+    //     {[
+    //       // {
+    //       //   content:
+    //       //     'To make your landing page more attractive, use illustrations! Check out ' +
+    //       //     '[**unDraw**](https://undraw.co/) which provides you with customizable illustrations which are free to use. ' +
+    //       //     'The illustrations you see on this page are from unDraw.',
+    //       //   image: `${baseUrl}img/undraw_code_review.svg`,
+    //       //   imageAlign: 'left',
+    //       //   title: 'Wonderful SVG Illustrations',
+    //       // },
+    //     ]}
+    //   </Block>
+    // );
 
-    const Description = () => (
-      <Block background="dark">
-        {/* {[
-          {
-            content:
-              'This is another description of how this project is useful',
-            image: `${baseUrl}img/undraw_note_list.svg`,
-            imageAlign: 'right',
-            title: 'Description',
-          },
-        ]} */}
-      </Block>
-    );
+    // const Description = () => (
+    //   <Block background="dark">
+    //     {/* {[
+    //       {
+    //         content:
+    //           'This is another description of how this project is useful',
+    //         image: `${baseUrl}img/undraw_note_list.svg`,
+    //         imageAlign: 'right',
+    //         title: 'Description',
+    //       },
+    //     ]} */}
+    //   </Block>
+    // );
 
-    const LearnHow = () => (
-      <Block background="light">
-        {[
-          // {
-          //   content:
-          //     'Each new Docusaurus project has **randomly-generated** theme colors.',
-          //   image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
-          //   imageAlign: 'right',
-          //   title: 'Randomly Generated Theme Colors',
-          // },
-        ]}
-      </Block>
-    );
+    // const LearnHow = () => (
+    //   <Block background="light">
+    //     {[
+    //       // {
+    //       //   content:
+    //       //     'Each new Docusaurus project has **randomly-generated** theme colors.',
+    //       //   image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
+    //       //   imageAlign: 'right',
+    //       //   title: 'Randomly Generated Theme Colors',
+    //       // },
+    //     ]}
+    //   </Block>
+    // );
 
     const Features = () => (
       <Block layout="fourColumn">
         {[
           {
-            // content: 'This is the content of my feature',
+            content: 'carrier-board + compute module featuring Tegra X1 SOC (quad-core 64-bit Cortex-A57 + 128-core Maxwell GPU), 4GB 64-bit LPDDR4, 4K video encoder/decoder.',
             image: `${baseUrl}img/jetson-nano_nvidia_module.jpg`,
             imageAlign: 'top',
             title: 'Jetson NANO',
           },
           {
-            //content: 'The content of my second feature',
+            content: 'carrier-board + compute module featuring Tegra X1 SOC (quad-core 64-bit Cortex-A57 + 256-core Maxwell GPU), 4GB 64-bit LPDDR4, and 16GB eMMC.',
             image: `${baseUrl}img/JetsonTX1.png`,
             imageAlign: 'top',
             title: 'Jetson TX1',
           },
           {
-            //content: 'The content of my second feature',
+            content: 'carrier-board + compute module featuring Tegra X2 SOC (quad-core 64-bit Cortex-A57 + dual-core NVIDIA Denver2 CPU + 256-core Pascal GPU), 8GB 128-bit LPPDR4, 32GB eMMC.',
             image: `${baseUrl}img/nvidia-jetson-tx2.jpg`,
             imageAlign: 'top',
             title: 'Jetson TX2',
           },
           {
-            //content: 'The content of my second feature',
+            content: 'carrier-board + compute module featuring Xavier SOC (octal-core 64-bit ARMv8.2 + 512-core Volta GPU with Tensor Cores + dual DLAs), 16GB 256-bit LPDDR4x, 32GB eMMC.',
             image: `${baseUrl}img/Xavier.png`,
             imageAlign: 'top',
             title: 'Jetson AGX Xavier',
@@ -168,6 +168,7 @@ class Index extends React.Component {
         ]}
       </Block>
     );
+    
     const FeatureCallout = () => (
       <div
         className="productShowcaseSection paddingBottom"
@@ -176,6 +177,7 @@ class Index extends React.Component {
         <MarkdownBlock>NVIDIA® Jetson™ systems provide the performance and power efficiency to run autonomous machines software, faster and with less power. Each is a complete System-on-Module (SOM), with CPU, GPU, PMIC, DRAM, and flash storage—saving development time and money. Jetson is also extensible. Just select the SOM that’s right for the application, and build the custom system around it to meet its specific needs.</MarkdownBlock>
       </div>
     );
+
     const Showcase = () => {
       if ((siteConfig.users || []).length === 0) {
         return null;
@@ -212,10 +214,10 @@ class Index extends React.Component {
         <div className="mainContainer">
           <Features />
           <FeatureCallout />
-          <LearnHow />
+          {/* <LearnHow />
           <TryOut />
-          <Description />
-          <Showcase />
+          <Description />*/}
+          <Showcase /> 
         </div>
       </div>
     );
