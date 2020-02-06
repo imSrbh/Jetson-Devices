@@ -1,14 +1,40 @@
 ---
 id: doc3
-title: This is document number 3
+title: Jetson TX1
+sidebar_label: About TX1
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac euismod odio, eu consequat dui. Nullam molestie consectetur risus id imperdiet. Proin sodales ornare turpis, non mollis massa ultricies id. Nam at nibh scelerisque, feugiat ante non, dapibus tortor. Vivamus volutpat diam quis tellus elementum bibendum. Praesent semper gravida velit quis aliquam. Etiam in cursus neque. Nam lectus ligula, malesuada et mauris a, bibendum faucibus mi. Phasellus ut interdum felis. Phasellus in odio pulvinar, porttitor urna eget, fringilla lectus. Aliquam sollicitudin est eros. Mauris consectetur quam vitae mauris interdum hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+# Jetson TX1 Module
 
-Duis et egestas libero, imperdiet faucibus ipsum. Sed posuere eget urna vel feugiat. Vivamus a arcu sagittis, fermentum urna dapibus, congue lectus. Fusce vulputate porttitor nisl, ac cursus elit volutpat vitae. Nullam vitae ipsum egestas, convallis quam non, porta nibh. Morbi gravida erat nec neque bibendum, eu pellentesque velit posuere. Fusce aliquam erat eu massa eleifend tristique.
+NVIDIA Jetson TX1 is an embedded system-on-module (SoM) with quad-core ARM Cortex-A57, 4GB LPDDR4 and integrated 256-core Maxwell GPU.
+Useful for deploying computer vision and deep learning, Jetson TX1 runs Linux and provides 1TFLOPS of FP16 compute performance in 10 watts of power.
 
-Sed consequat sollicitudin ipsum eget tempus. Integer a aliquet velit. In justo nibh, pellentesque non suscipit eget, gravida vel lacus. Donec odio ante, malesuada in massa quis, pharetra tristique ligula. Donec eros est, tristique eget finibus quis, semper non nisl. Vivamus et elit nec enim ornare placerat. Sed posuere odio a elit cursus sagittis.
+![TX1](https://elinux.org/images/thumb/6/6c/Jetson_TX1_DevKit_Module_combo.jpg/800px-Jetson_TX1_DevKit_Module_combo.jpg)
 
-Phasellus feugiat purus eu tortor ultrices finibus. Ut libero nibh, lobortis et libero nec, dapibus posuere eros. Sed sagittis euismod justo at consectetur. Nulla finibus libero placerat, cursus sapien at, eleifend ligula. Vivamus elit nisl, hendrerit ac nibh eu, ultrices tempus dui. Nam tellus neque, commodo non rhoncus eu, gravida in risus. Nullam id iaculis tortor.
+### Processing Components
 
-Nullam at odio in sem varius tempor sit amet vel lorem. Etiam eu hendrerit nisl. Fusce nibh mauris, vulputate sit amet ex vitae, congue rhoncus nisl. Sed eget tellus purus. Nullam tempus commodo erat ut tristique. Cras accumsan massa sit amet justo consequat eleifend. Integer scelerisque vitae tellus id consectetur.
+- quad-core ARM Cortex-A57
+- 256-core Maxwell GPU
+- 4GB LPDDR4
+- 16GB eMMC
+- H.264/H.265 encoder & decoder
+- Dual ISPs (Image Service Processors)
+
+### Ports & Peripherals
+
+- HDMI 2.0
+- 802.11ac WiFi, Bluetooth 4.0
+- USB3, USB2
+- Gigabit Ethernet
+- 12 lanes MIPI CSI 2.0
+- 4 lanes PCIe gen 2.0
+- SATA, 2x SDcard
+- 3x UART, 3x SPI, 4x I2C
+
+### Form-Factor
+
+- 400-pin Samtec board-to-board connector
+- dimensions: 50x87mm  (1.96" x 3.42")
+- mass: 45 grams
+- Thermal Transfer Plate (TTP), -25C to 85C operating temperature
+- 5.5-19.6VDC input power (consuming 10-15W, under typical load)
