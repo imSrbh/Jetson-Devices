@@ -37,7 +37,7 @@ You can either write the SD card image using a graphical program like Etcher, or
 
 Etcher Instructions
 
-Download, install, and launch [Etcher](https://www.balena.io/etcher).
+>Download, install, and launch [Etcher](https://www.balena.io/etcher).
 
 ![](https://developer.nvidia.com/sites/default/files/akamai/embedded/images/jetsonNano/gettingStarted/Jetson_Nano-Getting_Started-Linux-Etcher.png)
 
