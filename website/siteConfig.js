@@ -36,10 +36,14 @@ const siteConfig = {
 
     // For no header links in the top nav bar -> headerLinks: [],
     headerLinks: [
-        { doc: 'doc1', label: 'Comparison Sheet' },
-        { doc: 'doc4', label: 'News' },
-        { page: 'help', label: 'Help' },
+        // { doc: 'doc1', label: 'Comparison Sheet' },
+        // { doc: 'doc4', label: 'News' },
         { blog: true, label: 'Blog' },
+        { href: "https://github.com/imsrbh", label: "GitHub" },
+        { page: 'help', label: 'Help' },
+        { search: true },
+        // Determines language drop down position among links
+
     ],
 
     // If you have users set above, you add it here:
