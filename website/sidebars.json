@@ -1,6 +1,6 @@
 {
     "docs": {
-        "Jetson-Nano": ["doc1"],
+        "Jetson Modules Comparison": ["doc1"],
         "Jetson Xavier": ["doc2"],
         "DeepStream": ["doc3"]
     },

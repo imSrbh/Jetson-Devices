@@ -36,7 +36,7 @@ const siteConfig = {
 
     // For no header links in the top nav bar -> headerLinks: [],
     headerLinks: [
-        // { doc: 'doc1', label: 'Comparison Sheet' },
+        { doc: 'doc1', label: 'Devices' },
         // { doc: 'doc4', label: 'News' },
         { blog: true, label: 'Blog' },
         { href: "https://github.com/imsrbh", label: "GitHub" },
