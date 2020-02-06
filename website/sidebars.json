@@ -1,13 +1,8 @@
 {
     "docs": {
-        "Jetson Modules Comparison": ["doc1"],
+        "About": ["devices"],
+        "Jetson Modules Comparison": ["comp_sheet"],
         "Jetson Nano": ["doc2"],
-        "Jetson TX1": ["doc2"],
-        "Jetson TX2": ["doc2"],
-        "Jetson AGX Xavier": ["doc2"],
-        "DeepStream": ["doc3"]
-    },
-    "docs-other": {
-        "First Category": ["doc4", "doc5"]
+        "Jetson TX1": ["doc3"]
     }
 }

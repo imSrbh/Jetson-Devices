@@ -29,14 +29,14 @@ const siteConfig = {
 
     // Used for publishing and more
     projectName: 'test-site',
-    organizationName: 'facebook',
+    organizationName: 'smartcow',
     // For top-level user or org sites, the organization is still the same.
     // e.g., for the https://JoelMarcey.github.io site, it would be set like...
     //   organizationName: 'JoelMarcey'
 
     // For no header links in the top nav bar -> headerLinks: [],
     headerLinks: [
-        { doc: 'doc1', label: 'Devices' },
+        { doc: 'devices', label: 'Devices' },
         // { doc: 'doc4', label: 'News' },
         { blog: true, label: 'Blog' },
         { href: "https://github.com/imsrbh", label: "GitHub" },
