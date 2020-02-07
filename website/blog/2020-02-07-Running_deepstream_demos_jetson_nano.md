@@ -65,9 +65,9 @@ Read README for detailed information.
 `$ cat README`
 
 ___
-## Different ways of running DeepStream demos:
+## Running DeepStream demos:
 
-### 1. Using **configs**
+### From **configs** repo
 
 >/opt/nvidia/deepstream/deepstream4.0/samples `$ tree`
 
@@ -167,7 +167,7 @@ If the application runs into errors and cannot create gst elements, try again af
 
 ___
 ___
-### 2. Using **sample\_apps**
+### From **sample\_apps**
 >/opt/nvidia/deepstream/deepstream-4.0/sources/apps/sample_apps `ls`
 ```
 deepstream-app                     deepstream-segmentation-test
