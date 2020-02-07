@@ -2,7 +2,6 @@
 id: doc2
 title: Jetson Nano
 sidebar_label: About Nano
-
 ---
 
 
