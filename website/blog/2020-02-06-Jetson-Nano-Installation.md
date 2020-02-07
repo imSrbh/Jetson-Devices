@@ -1,5 +1,5 @@
 ---
-title: Jetson Nano - Installation
+title: Jetson Nano - How to flash
 author: Saurabh Kumar Singh
 authorURL: https://imsrbh.github.io
 authorFBID: 100005601877134
@@ -43,9 +43,11 @@ Etcher Instructions
 
 - Click “Select image” and choose the zipped image file downloaded earlier.
 - Insert your microSD card. If you have no other external drives attached, Etcher will automatically select the microSD card as target device. Otherwise, click “Change” and choose the correct device.
+
 ![](https://developer.nvidia.com/sites/default/files/akamai/embedded/images/jetsonNano/gettingStarted/Jetson_Nano-Getting_Started-Linux-Etcher_Select_Drive.png)
 
 - Click “Flash!” Your OS may prompt for your username and password before it allows Etcher to proceed.
+
 ![](https://developer.nvidia.com/sites/default/files/akamai/embedded/images/jetsonNano/gettingStarted/Jetson_Nano-Getting_Started-Linux-Etcher_Password.png)
 
 It will take Etcher 10-15 minutes to write and validate the image if your microSD card is connected via USB3.

@@ -39,8 +39,8 @@ const siteConfig = {
         { doc: 'devices', label: 'About' },
         // { doc: 'doc4', label: 'News' },
         { blog: true, label: 'Blog' },
-        { href: "https://github.com/imsrbh", label: "GitHub" },
-        { page: 'help', label: 'Help' },
+        //{ href: "https://github.com/imsrbh", label: "GitHub" },
+        //{ page: 'help', label: 'Help' },
 
         // Determines language drop down position among links
 
@@ -75,7 +75,7 @@ const siteConfig = {
 
 
     // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-    copyright: `Copyright © ${new Date().getFullYear()} smartguy`,
+    copyright: `Copyright © ${new Date().getFullYear()} smart`,
 
     highlight: {
         // Highlight.js theme to use for syntax highlighting in code blocks.
