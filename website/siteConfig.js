@@ -33,12 +33,17 @@ const siteConfig = {
     // For top-level user or org sites, the organization is still the same.
     // e.g., for the https://JoelMarcey.github.io site, it would be set like...
     //   organizationName: 'JoelMarcey'
+    algolia: {
+        placeholder: 'Search'
+    },
 
     // For no header links in the top nav bar -> headerLinks: [],
     headerLinks: [
-        { doc: 'devices', label: 'About' },
-        // { doc: 'doc4', label: 'News' },
+        { doc: 'about', label: 'About' },
+        { doc: 'devices', label: 'Learn' },
+
         { blog: true, label: 'Blog' },
+        //{ doc: 'doc4', lebel: 'About' },
 
         { search: true },
         // Determines language drop down position among links
@@ -54,9 +59,9 @@ const siteConfig = {
     users,
 
     /* path to images for header/footer */
-    headerIcon: 'img/nvidia-icon.png',
-    footerIcon: 'img/nvidia-icon.png',
-    favicon: 'img/nvidia-icon.png',
+    headerIcon: 'img/smartcowlogo.png',
+    footerIcon: 'img/smartcowlogo.png',
+    favicon: 'img/smartcowlogo.png',
 
     /* Colors for website */
     colors: {

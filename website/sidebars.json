@@ -1,11 +1,12 @@
 {
     "docs": {
         "About": ["devices"],
-        "Jetson Modules Comparison": ["comp_sheet"],
+        "Comparison": ["comp_sheet"],
         "Jetson Nano": ["doc2"],
         "Jetson TX1": ["doc3"],
         "Jetson TX2": ["doc4"],
         "Jetson AGX Xavier": ["doc5"],
-        "Deepstream": ["doc6"]
+        "Deepstream": ["doc6"],
+        "GStreamer": ["doc7"]
     }
 }
