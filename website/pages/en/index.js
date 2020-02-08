@@ -143,9 +143,10 @@ class Index extends React.Component {
         {[
           {
             content: 'carrier-board + compute module featuring Tegra X1 SOC (quad-core 64-bit Cortex-A57 + 128-core Maxwell GPU), 4GB 64-bit LPDDR4, 4K video encoder/decoder.',
-            image: `${baseUrl}img/jetson-nano_nvidia_module.jpg`,
+            image: 'https://www.nvidia.com/content/dam/en-zz/Solutions/intelligent-machines/embedded-systems/nvidia-jetson-nano-module-standing-2c50-d.jpg',
             imageAlign: 'top',
             title: 'Jetson NANO',
+
           },
           {
             content: 'carrier-board + compute module featuring Tegra X1 SOC (quad-core 64-bit Cortex-A57 + 256-core Maxwell GPU), 4GB 64-bit LPDDR4, and 16GB eMMC.',
@@ -155,13 +156,13 @@ class Index extends React.Component {
           },
           {
             content: 'carrier-board + compute module featuring Tegra X2 SOC (quad-core 64-bit Cortex-A57 + dual-core NVIDIA Denver2 CPU + 256-core Pascal GPU), 8GB 128-bit LPPDR4, 32GB eMMC.',
-            image: `${baseUrl}img/nvidia-jetson-tx2.jpg`,
+            image: `${baseUrl}img/TX2.png`,
             imageAlign: 'top',
             title: 'Jetson TX2',
           },
           {
             content: 'carrier-board + compute module featuring Xavier SOC (octal-core 64-bit ARMv8.2 + 512-core Volta GPU with Tensor Cores + dual DLAs), 16GB 256-bit LPDDR4x, 32GB eMMC.',
-            image: `${baseUrl}img/Xavier.png`,
+            image: `${baseUrl}img/Xav.jpg`,
             imageAlign: 'top',
             title: 'Jetson AGX Xavier',
           }

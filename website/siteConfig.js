@@ -39,6 +39,10 @@ const siteConfig = {
         { doc: 'devices', label: 'About' },
         // { doc: 'doc4', label: 'News' },
         { blog: true, label: 'Blog' },
+
+        { search: true },
+        // Determines language drop down position among links
+        { languages: true }
         //{ href: "https://github.com/imsrbh", label: "GitHub" },
         //{ page: 'help', label: 'Help' },
 
@@ -83,30 +87,53 @@ const siteConfig = {
     },
 
     // Add custom scripts here that would be placed in <script> tags.
-    scripts: ['https://buttons.github.io/buttons.js'],
+    scripts: ['https://buttons.github.io/buttons.js',
+        'https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js',
+        '/js/code-blocks-buttons.js',
+    ],
+    // scripts: [
+    //     'https://buttons.github.io/buttons.js',
+    //     'https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js',
+    //     '/js/code-block-buttons.js',
+    // ],
+    // stylesheets: ['/css/code-block-buttons.css']
 
     // On page navigation for the current documentation page.
     onPageNav: 'separate',
     // No .html extensions for paths.
-    cleanUrl: true,
+    //cleanUrl: true,
 
     // Open Graph and Twitter card images.
-    ogImage: 'img/undraw_online.svg',
-    twitterImage: 'img/undraw_tweetstorm.svg',
 
+
+    //facebookComments: true,
     // For sites with a sizable amount of content, set collapsible to true.
     // Expand/collapse the links and subcategories under categories.
-    // docsSideNavCollapsible: true,
+    docsSideNavCollapsible: true,
 
     // Show documentation's last contributor's name.
-    // enableUpdateBy: true,
+    enableUpdateBy: true,
 
     // Show documentation's last update time.
-    // enableUpdateTime: true,
+    enableUpdateTime: true,
 
     // You may provide arbitrary config keys to be used as needed by your
     // template. For example, if you need your repo's URL...
     //   repoUrl: 'https://github.com/facebook/test-site',
+    facebookAppId: '1615782811974223',
+    facebookComments: true,
+    facebookPixelId: '352490515235776',
+    twitter: 'true',
+    twitterUsername: 'im_srbh',
+    twitterImage: 'img/undraw_tweetstorm.svg',
+    ogImage: 'img/undraw_online.svg',
+    //twitterImage: 'img/docusaurus.png',
+    //ogImage: 'img/docusaurus.png',
+    cleanUrl: true,
+    scrollToTop: true,
+    scrollToTopOptions: {
+        zIndex: 100,
+    },
 };
 
 module.exports = siteConfig;
